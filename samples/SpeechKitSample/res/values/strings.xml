@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeechKitSample</string>
+    <string name="start_button_text">Start Recognition</string>
+    <string name="finish_button_text">Finish Recording</string>
+    <string name="cancel_button_text">Cancel Recognition</string>
+    <string name="language_text">Language</string>
+    <string name="language_model_text">Model</string>
+    <string name="recognition_engine_text">Recognition engine</string>
+    <string name="indication_text_idle">Idle</string>
+    <string name="indication_text_waiting">Waiting</string>
+    <string name="indication_text_no_result">No credible result</string>
+    <string name="indication_text_one_result">One credible result</string>
+    <string name="indication_text_multiple_result">Several credible results</string>
+    <string name="indication_text_recording_silence">Recording, silence</string>
+    <string name="indication_text_recording_talking">Recording, talking</string>
+    <string name="indication_text_too_quiet">Too quiet</string>
+    <string name="indication_text_too_loud">Too loud</string>
+    <string name="set_preferences">Set preferences</string>
+    
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:minHeight="?android:attr/listPreferredItemHeight"
+                  android:gravity="center_vertical">
+        <TextView android:layout_width="fill_parent" 
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/bro_common_speech_text"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:layout_marginLeft="8dp"
+                  android:layout_centerVertical="true"
+                  android:textColor="#000000" />
+        
+        <ImageButton
+                android:id="@+id/bro_common_speech_button"
+                android:baselineAlignBottom="true"
+                android:background="@null"
+                android:src="@drawable/bro_common_omnibox_autocomplete_tap_ahead"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scaleType="center"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                />
+    </LinearLayout>
+</LinearLayout>

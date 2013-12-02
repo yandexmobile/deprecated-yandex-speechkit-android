@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Сообщение о том, что голосовой поиск не поддерживатеся-->
+    <string name="bro_common_speech_dialog_not_supported">Voice search not supported.</string>
+    <!--Кнопка Готово в окне голосового поиска-->
+    <string name="bro_common_speech_dialog_ready_button">Done</string>
+    <!--Кнопка Повторить в окне голосового поиска-->
+    <string name="bro_common_speech_dialog_repeat_button">Try again</string>
+    <!--Сообщение о том, что время ожидания голосового запроса вышло-->
+    <string name="bro_common_speech_dialog_timeout">I can\'t hear you</string>
+    <!-- Заголовок диалога с вариантами распознавания голоса -->
+    <string name="bro_common_speech_dialog_title">Are you looking for...</string>
+    <!-- Сообщение о том, что голосовой поиск слушает -->
+    <string name="bro_common_speech_dialog_hint">Ready</string>
+    <!-- Сообщение о том, что фрагмент речи записан и происходит его распознавание -->
+    <string name="bro_common_speech_dialog_wait">Please wait</string>
+    <!-- Сообщение о том, что голосовой поиск запускается -->
+    <string name="bro_common_speech_dialog_wait_before">Just a sec</string>
+    <!-- Сообщение о том, что голосовой поиск ни смог предложить вариантов распознавания фрагмента речи -->
+    <string name="bro_common_speech_dialog_unrecognized">Unfortunately, this phrase was not recognized. Please try again.</string>
+    <!-- Сообщение о том, что для распознавания требуется соединение с интернетом -->
+    <string name="bro_common_speech_dialog_network">You must be connected to the internet to use the voice recognition feature</string>
+    <!-- Кнопка Отменить в окне голосового поиска -->
+    <string name="bro_common_speech_dialog_cancel_button">Cancel</string>
+    <!-- Сообщение о том, что голосовой поиск не запускается -->
+    <string name="bro_common_speech_dialong_open_error">Unable to initialize voice search</string>
+</resources>

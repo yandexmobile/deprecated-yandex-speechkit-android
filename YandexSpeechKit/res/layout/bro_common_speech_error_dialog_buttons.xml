@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:layout_gravity="fill_horizontal|bottom"
+              android:padding="5dp"
+              android:weightSum="2"
+        >
+
+    <Button
+            android:id="@+id/bro_common_speech_repeat"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/bro_common_speech_dialog_repeat_button"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            style="@style/BrowserCommonSpeechButton"
+            />
+
+    <Button
+            android:id="@+id/bro_common_speech_cancel"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/bro_common_speech_dialog_cancel_button"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            style="@style/BrowserCommonSpeechButton"
+            />
+
+</LinearLayout>

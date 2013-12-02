@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ z_z_serp_gray_button_selector.xmlutton.xml:
+  ~
+  ~ This file is a part of the Yandex Search for Android project.
+  ~
+  ~ (C) Copyright 2012 Yandex, LLC. All rights reserved.
+  ~
+  ~ Author: Sergey Chernov <syntezzz@yandex-team.ru>
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bro_common_speech_button_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/bro_common_speech_button_normal"/>
+</selector>

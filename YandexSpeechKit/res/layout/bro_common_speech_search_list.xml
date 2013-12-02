@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <ListView
+            android:id="@+id/bro_common_speech_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#3030C0" />
+    
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_gravity="fill_horizontal|bottom"
+                  android:padding="10dp"
+                  android:weightSum="2"
+            >
+
+        <Button
+                android:id="@+id/bro_common_speech_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bro_common_speech_dialog_cancel_button"
+                style="@style/BrowserCommonSpeechButton"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

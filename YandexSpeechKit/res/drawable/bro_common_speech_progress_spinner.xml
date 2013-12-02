@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ zz_serp_progress_spinner.xml:
+  ~
+  ~ This file is a part of the Yandex Search for Android project.
+  ~
+  ~ (C) Copyright 2012 Yandex, LLC. All rights reserved.
+  ~
+  ~ Author: Alexey Kalyukin <nikolaevich@yandex-team.ru>
+  -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="0"
+                android:toDegrees="0">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="22"
+                android:toDegrees="22">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="45"
+                android:toDegrees="45">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="67"
+                android:toDegrees="67">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="90"
+                android:toDegrees="90">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="112"
+                android:toDegrees="112">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="135"
+                android:toDegrees="135">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="157"
+                android:toDegrees="157">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="180"
+                android:toDegrees="180">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="202"
+                android:toDegrees="202">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="225"
+                android:toDegrees="225">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="247"
+                android:toDegrees="247">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="270"
+                android:toDegrees="270">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="292"
+                android:toDegrees="292">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="315"
+                android:toDegrees="315">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+    <item android:duration="70">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                android:fromDegrees="337"
+                android:toDegrees="337">
+            <bitmap android:src="@drawable/bro_common_speech_spinner_image"/>
+        </rotate>
+    </item>
+</animation-list>

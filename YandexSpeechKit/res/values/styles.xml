@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="BrowserCommon"/>
+    
+    <style name="BrowserCommonSpeech" />
+
+    <style name="BrowserCommonSpeechButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bro_common_speech_button</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="BrowserCommonSpeechDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorForeground">#f0f0</item>
+    </style>
+    
+</resources>
