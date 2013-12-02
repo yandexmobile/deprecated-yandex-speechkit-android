@@ -6,7 +6,6 @@
 *.apk
 *.ap_
 *.dex
-*.so
 dexedLibs/
 gen/
 build/
