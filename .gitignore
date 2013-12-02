@@ -1,0 +1,16 @@
+*~
+*.o
+*.d
+*.a
+*.class
+*.apk
+*.ap_
+*.dex
+*.so
+dexedLibs/
+gen/
+build/
+bin/
+obj/
+local.properties
+
