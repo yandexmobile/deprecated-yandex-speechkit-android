@@ -13,4 +13,4 @@
 # Project target.
 target=android-15
 manifestmerger.enabled=true
-android.library.reference.1=../../YandexSpeechKit
+android.library.reference.1=../../../../make/android/deploy/YandexSpeechKit

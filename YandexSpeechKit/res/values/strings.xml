@@ -23,5 +23,5 @@
     <!-- Кнопка Отменить в окне голосового поиска -->
     <string name="bro_common_speech_dialog_cancel_button">Cancel</string>
     <!-- Сообщение о том, что голосовой поиск не запускается -->
-    <string name="bro_common_speech_dialong_open_error">Unable to initialize voice search</string>
+    <string name="bro_common_speech_dialog_open_error">Unable to initialize voice search</string>
 </resources>

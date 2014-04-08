@@ -13,3 +13,18 @@ EULA could be found at: http://legal.yandex.ru/speechkit/
 
 Documentation could be found at: http://api.yandex.ru/speechkit/generated/android/html/index.html
 
+Changelog
+----------------------------------------
+
+**Yandex SpeechKit 2.1** (released 2014-04-08)
+
+- new features:
+  * GNU STL library is shared now;
+
+- fixes:
+  * stability increased on different devices and OS versions;
+  * other fixes.
+
+**Yandex SpeechKit 2.0** (released 2013-12-02)
+
+- Initial public version.

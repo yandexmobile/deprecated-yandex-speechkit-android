@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Сообщение о том, что голосовой поиск не поддерживатеся-->
-    <string name="bro_common_speech_dialog_not_supported">Голосовой поиск не поддерживается.</string>
+    <string name="bro_common_speech_dialog_not_supported">Voice search not supported.</string>
     <!--Кнопка Готово в окне голосового поиска-->
-    <string name="bro_common_speech_dialog_ready_button">Готово</string>
+    <string name="bro_common_speech_dialog_ready_button">Valmis</string>
     <!--Кнопка Повторить в окне голосового поиска-->
-    <string name="bro_common_speech_dialog_repeat_button">Повторить</string>
+    <string name="bro_common_speech_dialog_repeat_button">Yritä uudelleen</string>
     <!--Сообщение о том, что время ожидания голосового запроса вышло-->
-    <string name="bro_common_speech_dialog_timeout">Вас не слышно</string>
+    <string name="bro_common_speech_dialog_timeout">I can\'t hear you</string>
     <!-- Заголовок диалога с вариантами распознавания голоса -->
-    <string name="bro_common_speech_dialog_title">Вы ищете…</string>
+    <string name="bro_common_speech_dialog_title">Etsitkö...</string>
     <!-- Сообщение о том, что голосовой поиск слушает -->
-    <string name="bro_common_speech_dialog_hint">Говорите</string>
+    <string name="bro_common_speech_dialog_hint">Valmiina</string>
     <!-- Сообщение о том, что фрагмент речи записан и происходит его распознавание -->
-    <string name="bro_common_speech_dialog_wait">Пожалуйста, подождите...</string>
+    <string name="bro_common_speech_dialog_wait">Please wait</string>
     <!-- Сообщение о том, что голосовой поиск запускается -->
-    <string name="bro_common_speech_dialog_wait_before">Секундочку...</string>
+    <string name="bro_common_speech_dialog_wait_before">Just a sec</string>
     <!-- Сообщение о том, что голосовой поиск ни смог предложить вариантов распознавания фрагмента речи -->
-    <string name="bro_common_speech_dialog_unrecognized">К сожалению, распознать фразу не удалось. Попробуйте еще раз.</string>
+    <string name="bro_common_speech_dialog_unrecognized">Valitettavasti tätä lausetta ei tunnistettu. Ole hyvä ja yritä uudelleen.</string>
     <!-- Сообщение о том, что для распознавания требуется соединение с интернетом -->
-    <string name="bro_common_speech_dialog_network">Для распознавания голоса требуется соединение с интернетом.</string>
+    <string name="bro_common_speech_dialog_network">You must be connected to the internet to use the voice recognition feature</string>
     <!-- Кнопка Отменить в окне голосового поиска -->
-    <string name="bro_common_speech_dialog_cancel_button">Отменить</string>
+    <string name="bro_common_speech_dialog_cancel_button">Peruuta</string>
     <!-- Сообщение о том, что голосовой поиск не запускается -->
-    <string name="bro_common_speech_dialog_open_error">Не удалось запустить голосовой поиск.</string>
+    <string name="bro_common_speech_dialog_open_error">Unable to initialize voice search</string>
 </resources>
