@@ -12,4 +12,4 @@ build/
 bin/
 obj/
 local.properties
-
+.DS_Store
