@@ -1,10 +1,10 @@
 <p align="center" >
-  <img src="https://yastatic.net/doccenter/images/tech-ru/speechkit/freeze/Ts_YHKzyKst6Oe-VCHRciqug0c.png" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
+  <img src="http://storage.mds.yandex.net/get-speechkit/28683/yandex_speechkit_pic.png" alt="Yandex SpeechKit" title="Yandex SpeechKit Mobile SDK">
 </p>
 
-[![Main](https://tech.yandex.com/speechkit/mobilesdk/)
-[![EULA](https://yandex.ru/legal/speechkit)
-[![Documentation](https://tech.yandex.ru/speechkit/mobilesdk/doc/android/stable/ref/concepts/About-docpage/)
+[Website](https://tech.yandex.com/speechkit/mobilesdk/) |
+[Documentation](https://tech.yandex.ru/speechkit/mobilesdk/doc/android/stable/ref/concepts/About-docpage/) |
+[EULA](https://yandex.ru/legal/speechkit)
 
 Use the SpeechKit library to integrate speech recognition, text-to-speech, music identification, and Yandex voice activation into your Android mobile app. Voice control makes your app more user-friendly, especially for people who use it on the go or whose hands are busy. Without touching the screen, users can activate the desired feature with a single phrase.
 
@@ -133,7 +133,7 @@ Minimum system requirements:
 
 ## Usage
 
-### `SpeechKit`
+### SpeechKit
 
 Singleton class for configuring and controlling the library. You don't need to explicitly create or destroy instances of the `SpeechKit` class. To access an object, use the `getInstance` method, which creates an instance of the` SpeechKit` class when accessed the first time. This instance is destroyed when the application closes.
 
@@ -142,7 +142,7 @@ Before using any of the SpeechKit functionality, you must configure `SpeechKit` 
 SpeechKit.getInstance().init(getApplicationContext(), "developer_api_key")
 ```
 
-### `OnlineRecognizer`
+### OnlineRecognizer
 
 ```java
 OnlineRecognizer recognizer = new OnlineRecognizer.Builder(Language.ENGLISH, OnlineModel.QUERIES, this)
@@ -162,7 +162,7 @@ public void onPartialResults(@NonNull Recognizer recognizer, @NonNull Recognitio
 }
 ```
 
-### `OnlineVocalizer`
+### OnlineVocalizer
 
 ```java
 OnlineVocalizer.Builder vocalizer = new OnlineVocalizer.Builder(Language.ENGLISH, this)
